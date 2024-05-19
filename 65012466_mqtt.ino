@@ -3,8 +3,8 @@
 #include <Wire.h>
 #include "Adafruit_SHT31.h"
 
-const char* ssid = "J";
-const char* password = "0986718097";
+const char* ssid = "";
+const char* password = "";
 
 #define mqttServer "broker.emqx.io"
 #define mqttPort 1883
